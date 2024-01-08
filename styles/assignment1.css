@@ -1,0 +1,96 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Merriweather", serif;
+}
+/* header styles */
+.heading_banner {
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/banner.png");
+  margin: auto;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  text-align: center;
+}
+.heading_banner_text {
+  color: #fff;
+  text-align: center;
+  margin: 40px;
+  padding: 220px 310px;
+  font-size: 30px;
+  width: 600px;
+}
+.para1 {
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+/* main section styles */
+.discount_section {
+  text-align: center;
+  margin: 120px 398px;
+}
+.discount {
+  padding: 25px;
+  color: #f00;
+  font-weight: 800;
+  font-size: 50px;
+  font-family: Inter;
+}
+.para2 {
+  font-size: 10px;
+  color: #f00;
+  font-weight: 800;
+  padding: 15px;
+}
+.discount_heading3 {
+  font-size: 20px;
+  color: #070211;
+  font-weight: 800;
+}
+.discount_img {
+  padding-top: 30px;
+}
+.party_section {
+  background-image: linear-gradient(120deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+}
+.MidNight_party {
+  width: 400px;
+  padding: 120px;
+  color: #fff;
+}
+.vectorr {
+  padding: 120px;
+}
+.para3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 30px 0px;
+}
+.Midnight_heading {
+  font-family: "Merriweather", serif;
+  letter-spacing: 7px;
+}
+.Join_party {
+  color: #fff;
+  font-weight: 600;
+  padding: 10px;
+  background-color: #070211;
+  border: none;
+  font-size: 18px;
+}

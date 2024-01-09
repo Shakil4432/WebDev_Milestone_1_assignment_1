@@ -231,7 +231,13 @@ span {
   flex-wrap: wrap;
   width: 1320px;
 }
+.portfolio_image:hover{
+    cursor: pointer;
+    border: 5px solid red;
+    background:#f00;
+}
 .portfolio_details {
+    width: 800px;
   margin-top: 30px;
   padding-bottom: 50px;
 }
@@ -258,13 +264,13 @@ span {
     line-height: 50px;
 }
 .subscription{
-    display: flex;
-    background-color: #fff;
-    justify-content: space-between;
+    text-align: center;
+    background-color: #f00;
     width: 40%;
-    height: 40px;
+    height: 60px;
     margin-left: 29%;
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
     border-radius: 100px;
 }
 .para9{
@@ -275,14 +281,25 @@ span {
     justify-content: space-between;
     color: #757575;
 }
+.input_text{
+    width: 350px;
+    border: 1px solid #757575;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
 .subscribe_btn{
     border: none;
-    border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 50px 50px 15px;
     background-color: #f00;
-    padding: 20px 30px ;
+    padding:20px 15px 20px 20px ;
+    padding-bottom: 10px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-right: 20px;
     color: #fff;
+    overflow: visible;
+
 }
 .contact_container{
     margin: 120px;
@@ -316,6 +333,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .this2{
     font-weight: 100;

@@ -10,8 +10,8 @@ body {
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/banner.png");
   margin: auto;
-  width: 1320px;
-  height: 600px;
+  max-width: 1320px;
+  max-height: 600px;
   border-radius: 16px;
   text-align: center;
 }
@@ -30,7 +30,11 @@ body {
 /* main section styles */
 .discount_section {
   text-align: center;
-  margin: 100px;
+  margin: auto;
+  padding: 100px 0px;
+}
+.off_section{
+    max-width: 802px;
 }
 .discount {
   padding: 25px;
@@ -53,6 +57,10 @@ body {
 .discount_img {
   padding-top: 30px;
 }
+.Party_part{
+    max-width: 1320px;
+    margin: auto;
+}
 .party_section {
   background-image: linear-gradient(120deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Vectorrr.png");
@@ -61,7 +69,7 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: auto;
-  width: 1320px;
+  max-width: 1320px;
   height: 600px;
   border-radius: 16px;
 }
@@ -94,17 +102,16 @@ body {
   border: none;
   font-size: 18px;
 }
-.party_details {
-  width: 1220px;
-  height: 482px;
-  text-align: center;
-}
 .party_location_and_details {
   background-image: linear-gradient(to bottom, pink, rgb(224, 204, 204));
-  margin: 120px;
-  margin-right: 180px;
-  margin-left: 180px;
+  max-width: 1320px;
+  max-height: 482px;
   border-radius: 16px;
+  margin: auto;
+  margin-top: 120px;
+}
+.party_details {
+  text-align: center;
 }
 .para4 {
   text-align: center;
@@ -115,6 +122,7 @@ body {
 }
 .Join_Now2 {
   color: white;
+  margin-bottom: 60px;
   margin-left: 60px;
   padding: 20px 30px;
   background-color: #f00;
@@ -127,13 +135,18 @@ span {
   color: #f00;
   font-weight: 600;
 }
+.bonus{
+    max-width: 1320px;
+    margin: auto;
+}
 .bonus_container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 1325px;
-  height: 482px;
-  margin-left: 180px;
+  max-width: 1320px;
+  max-height: 482px;
+  margin: auto;
+  margin-top: 120px;
   border-radius: 16px;
   gap: 50px;
 }
@@ -175,11 +188,16 @@ span {
 .bonus_img2 {
   padding-top: 30px;
 }
+.Holiday{
+    max-width: 1320px;
+    margin: auto;
+}
 .holiday_sale {
   width: 1320px;
   height: 800px;
+  margin: auto;
   margin-top: 120px;
-  margin-left: 200px;
+  margin-right: 140px;
   position: relative;
   border-radius: 16px;
 }
@@ -221,14 +239,19 @@ span {
   font-size: 15px;
   font-weight: 800;
 }
-.portfolio_section {
-  width: 1370px;
-  margin: 120px 200px;
+.portfolio{
+    max-width: 1600px;
+    margin: auto;
+}
+.portfolio_section{
+    padding: 120px 140px;
+    margin-left: 20px;
 }
 .portfolio_images {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  gap: 10px;
   width: 1320px;
 }
 .portfolio_image:hover{
@@ -249,14 +272,17 @@ span {
   color: #757575;
   font-size: 15px;
 }
+.Subs{
+    max-width: 1320px;
+    max-height: 616px;
+    margin: auto;
+}
 .subscriber_section {
   text-align: center;
-  width: 1280px;
-  height: 616px;
   flex-shrink: 0;
-  margin-left: 195px;
   background-color:bisque;
   border-radius: 16px;
+  padding-bottom: 80px;
 
 }
 .subscriber_mail{
@@ -301,16 +327,15 @@ span {
     overflow: visible;
 
 }
+.contact{
+    max-width: 1800px;
+    max-height: 609px;
+    margin-top: 120px;
+}
 .contact_container{
-    margin: 120px;
-    margin-left: 200px;
-    margin-right: 300px;
-    width: 1280px;
     background-color: #070211;
     color: #fff;
-    border-radius: 16px;
-    height: 482px;
-    padding-top: 120px;
+    padding: 120px;
 }
 .contact_us{
     display: flex;
